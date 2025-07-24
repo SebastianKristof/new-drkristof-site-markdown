@@ -1,0 +1,28 @@
+# Hugo build output
+/public/
+/resources/
+
+# Hugo cache
+/.hugo_build.lock
+
+# Node modules (if using npm/yarn for theme assets)
+/node_modules/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Backup files
+*~
+
+# Log files
+*.log
+
+# Netlify
+/netlify.toml 

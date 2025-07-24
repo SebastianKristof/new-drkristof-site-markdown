@@ -1,0 +1,42 @@
+
+baseURL = "https://example.com/"
+title = "Гипнотерапия 2.0"
+languageCode = "ru"
+# disable rss etc for now
+disableKinds = ["taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT"]
+# Available Hugo themes (uncomment one to use):
+theme = "PaperMod"
+# theme = "zen"
+# theme = "congo"
+# theme = "blowfish"
+# theme = "next"
+# theme = "dream"
+# theme = "coder"
+# theme = "hextra"
+# theme = "ananke"
+
+[params]
+  highlightcss = ""
+  disablePico = true
+
+[menu]
+  [[menu.main]]
+    name = "Главная"
+    url  = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Обо мне"
+    url  = "/about/"
+    weight = 2
+  [[menu.main]]
+    name = "Услуги"
+    url  = "/services/"
+    weight = 3
+  [[menu.main]]
+    name = "FAQ"
+    url  = "/faq/"
+    weight = 4
+  [[menu.main]]
+    name = "Контакты"
+    url  = "/contact/"
+    weight = 5

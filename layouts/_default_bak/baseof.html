@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <title>{{ .Title }} | Гипнотерапия 2.0</title>
+
+  <!-- Pico CSS — один файл, без сборки -->
+  {{ if not .Site.Params.disablePico }}
+  <link rel="stylesheet"
+        href="https://unpkg.com/@picocss/pico@1.*/css/pico.min.css">
+  {{ end }}
+  
+  <style>
+    /* базовые правки под лендинг */
+    body { max-width: 760px; margin: auto; padding: 1rem; }
+    nav  { margin-bottom: 2rem; }
+    nav a { margin-right: 1rem; }
+    table { width: 100%; }
+    thead,
+    tbody tr:nth-child(even) { background: #f6f6f6; }
+  </style>
+</head>
+
+<body>
+
+  <!-- Меню из блока [menu.main] в config.toml -->
+  <nav>
+    {{ range .Site.Menus.main }}
+      <a href="{{ .URL | relURL }}">{{ .Name }}</a>
+    {{ end }}
+  </nav>
+
+  <!-- Контент страницы -->
+  {{ block "main" . }}{{ end }}
+
+</body>
+</html>
