@@ -5,15 +5,18 @@ languageCode = "ru"
 # disable rss etc for now
 disableKinds = ["taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT"]
 # Available Hugo themes (uncomment one to use):
-theme = "PaperMod"
-# theme = "zen"
-# theme = "congo"
-# theme = "blowfish"
-# theme = "next"
-# theme = "dream"
-# theme = "coder"
-# theme = "hextra"
-# theme = "ananke"
+# theme = "PaperMod"
+# theme = "LoveIt"
+# theme = "BeautifulHugo"
+# theme = "toha"
+# theme = "jane"
+# theme = "introduction"
+# theme = "hyde"
+# theme = "hermit-v2"
+theme = "KeepIt"
+# theme = "up-business-theme"
+# theme = "hugoplate"
+# theme = "long-teng"
 
 [params]
   highlightcss = ""

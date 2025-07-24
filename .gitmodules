@@ -25,3 +25,36 @@
 [submodule "themes/hextra"]
 	path = themes/hextra
 	url = https://github.com/imfing/hextra.git
+[submodule "themes/LoveIt"]
+	path = themes/LoveIt
+	url = https://github.com/dillonzq/LoveIt.git
+[submodule "themes/BeautifulHugo"]
+	path = themes/BeautifulHugo
+	url = https://github.com/halogenica/beautifulhugo.git
+[submodule "themes/toha"]
+	path = themes/toha
+	url = https://github.com/hugo-toha/toha.git
+[submodule "themes/jane"]
+	path = themes/jane
+	url = https://github.com/xianmin/hugo-theme-jane.git
+[submodule "themes/introduction"]
+	path = themes/introduction
+	url = https://github.com/victoriadrake/hugo-theme-introduction.git
+[submodule "themes/hyde"]
+	path = themes/hyde
+	url = https://github.com/spf13/hyde.git
+[submodule "themes/hermit-v2"]
+	path = themes/hermit-v2
+	url = https://github.com/Track3/hermit.git
+[submodule "themes/KeepIt"]
+	path = themes/KeepIt
+	url = https://github.com/Fastbyte01/KeepIt.git
+[submodule "themes/up-business-theme"]
+	path = themes/up-business-theme
+	url = https://github.com/cowboysmall-tools/hugo-business-frontpage-theme.git
+[submodule "themes/hugoplate"]
+	path = themes/hugoplate
+	url = https://github.com/zeon-studio/hugoplate.git
+[submodule "themes/long-teng"]
+	path = themes/long-teng
+	url = https://github.com/mdfriday/theme-long-teng.git
