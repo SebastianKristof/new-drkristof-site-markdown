@@ -1,6 +1,5 @@
-
-baseURL = "https://example.com/"
-title = "Гипнотерапия 2.0"
+baseURL = "https://drkristof.com/"
+title = "Dr. Sebastian Kristof"
 languageCode = "ru"
 # disable rss etc for now
 disableKinds = ["taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT"]
@@ -22,7 +21,7 @@ theme = "PaperMod"
   highlightcss = ""
   disablePico = true
   # website title for Open Graph and Twitter Cards
-  title = "Гипнотерапия 2.0"
+  title = "Dr. Sebastian Kristof"
   # website description for RSS, SEO, Open Graph and Twitter Cards
   description = "Deep subconscious reprogramming by Dr. Sebastian Kristof"
   # website images for Open Graph and Twitter Cards
@@ -30,22 +29,22 @@ theme = "PaperMod"
 
 [menu]
   [[menu.main]]
-    name = "Главная"
+    name = "Личная терапия"
     url  = "/"
     weight = 1
   [[menu.main]]
-    name = "Обо мне"
-    url  = "/about/"
+    name = "Аудио-программы"
+    url  = "/audio/"
     weight = 2
   [[menu.main]]
-    name = "Услуги"
-    url  = "/services/"
+    name = "Приложения"
+    url  = "/apps/"
     weight = 3
   [[menu.main]]
-    name = "FAQ"
-    url  = "/faq/"
+    name = "О гипнотерапии"
+    url  = "/about-hypnosis/"
     weight = 4
   [[menu.main]]
-    name = "Контакты"
-    url  = "/contact/"
+    name = "Блог"
+    url  = "/blog/"
     weight = 5
