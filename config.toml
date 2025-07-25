@@ -4,7 +4,7 @@ languageCode = "ru"
 # disable rss etc for now
 disableKinds = ["taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT"]
 # Available Hugo themes (uncomment one to use):
-theme = "PaperMod"
+# theme = "PaperMod"
 # theme = "LoveIt"
 # theme = "BeautifulHugo"
 # theme = "toha"
@@ -16,6 +16,11 @@ theme = "PaperMod"
 # theme = "up-business-theme"
 # theme = "hugoplate"
 # theme = "long-teng"
+
+[module]
+  [[module.imports]]
+    path    = "github.com/adityatelange/hugo-PaperMod"
+
 
 [params]
   highlightcss = ""
